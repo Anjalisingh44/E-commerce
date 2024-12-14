@@ -1,0 +1,60 @@
+/* Global styles */
+body {
+    background-color: #f4f4f4; /* Set a light background color for the body */
+    color: black; /* Make all text black */
+  }
+  
+  .ant-layout {
+    background-color: #fff; /* Keep layout background white */
+  }
+  
+  .ant-card {
+    background-color: #fff; /* Ensure the card background is white */
+    border: 2px solid gray; /* Add a prominent blue border */
+    border-radius: 10px; /* Rounded corners for a smoother look */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow effect for depth */
+  }
+  
+  .ant-card .ant-card-body {
+    color: black; /* Set text color inside cards to black */
+  }
+  
+  .ant-typography {
+    color: black !important; /* Override any conflicting color styles */
+  }
+  
+  .ant-table {
+    color: black; /* Set text color in the table */
+  }
+  
+  .ant-statistic {
+    color: black; /* Make statistic text black */
+  }
+  
+  .ant-statistic-title {
+    color: black; /* Title in statistics */
+  }
+  
+  /* For Header */
+  .ant-layout-header {
+    background: #fff; 
+    color: black; /* Ensure header text is visible */
+  }
+  
+  /* Set table headers to black */
+  .ant-table-thead > tr > th {
+    background-color: #f0f0f0;
+    color: black; /* Ensure table headers have black text */
+  }
+  
+  /* Make sure chart labels and data are visible */
+  .ant-card-title {
+    color: black; /* Title in chart and other cards */
+  }
+  
+  /* Additional styling for card borders */
+  .ant-card:hover {
+    border-color: gray; /* Change border color on hover for a more interactive feel */
+    box-shadow: 0 6px 9px rgba(0, 0, 0, 0.15); /* Increase shadow on hover for emphasis */
+  }
+  
